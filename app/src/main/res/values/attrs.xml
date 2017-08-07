@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 主页Tab -->
+    <declare-styleable name="tabbutton">
+        <attr name="icon_str" format="string" />
+        <attr name="icon_drawable" format="reference" />
+        <attr name="icon_text_margin" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="text_selected_color" format="color" />
+        <attr name="icon_drawable_selected" format="reference" />
+    </declare-styleable>
+
+    <!-- 循环ViewPager -->
+    <declare-styleable name="ConvenientBanner">
+        <attr name="canLoop" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="text_tab">
+        <attr name="text_str" format="string"/>
+        <attr name="text_size" format="reference|dimension"/>
+        <attr name="text_color_normal" format="reference"/>
+        <attr name="text_color_selected" format="reference"/>
+        <attr name="line_width" format="reference|dimension"/>
+        <attr name="line_height" format="reference|dimension"/>
+        <attr name="line_bg_color_normal" format="color"/>
+        <attr name="line_bg_color_selected" format="color"/>
+    </declare-styleable>
+</resources>
